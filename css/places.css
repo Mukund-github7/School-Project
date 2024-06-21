@@ -1,0 +1,75 @@
+ /* CSS Reset */
+ * {
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 87vh;
+    width: 90vw;
+    margin: 20px auto;
+    padding: 20px 30px;
+    border: 2px solid rgb(108 108 108 / 51%);
+    border-radius: 20px;
+    background-color: rgb(108 108 108 / 31%);
+}
+.container::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: url('../img/scene1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.9;
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+.item {
+    border-radius: 20px;
+    border: 2px solid #f3f3f3;
+    margin: 20px 10px;
+    padding: 20px 20px;
+    height: 65vh;
+    background-color: rgba(36, 36, 36, 0.8);
+}
+.item p {
+    color: white;
+}
+h1 {
+    font-family: 'Gideon Roman', cursive;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: #ffb850;
+}
+h3 {
+    padding-top: 0;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+.reach {
+    position: absolute;
+    top: 600px;
+    right: 120px;
+}
+.reach a {
+    color: white;
+}
+.reach a p {
+    font-size: 1.3rem;
+    color: #68b35f;
+}

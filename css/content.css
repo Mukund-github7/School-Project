@@ -1,0 +1,70 @@
+   /* CSS Reset */
+   * {
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+}
+.container {
+    /* color: white; */
+    background-color: rgba(16, 16, 16, 0.5);
+    /* border: 2px solid brown; */
+    border-radius: 25px;
+    box-shadow: 40px 38px 45px black;
+    height: 70vh;
+    width: 30%;
+    margin: 96px 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url("../img/Content2.jpg") no-repeat center center/cover;
+    z-index: -1;
+}
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 11px 36px;
+}
+#items {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 1.6rem;
+}
+button {
+    border-radius: 25px;
+    display: flex;
+    margin: 320px 75px;
+    height: 80px;
+    width: 20rem;
+    background-color: orangered;
+}
+.btn{
+    text-align: center;
+}
+.btn a{
+    font-family: 'Oleo Script', cursive;
+    text-decoration: none;
+    color: #000000;
+}
+p{
+    font-size: 1.6rem;
+    padding: 12px 58px;
+    margin: 8px auto;
+}
+h1 {
+    color: #00ff95;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3rem;
+    margin: 9px 15px;
+    padding: 37px 19px;
+}

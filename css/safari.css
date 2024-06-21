@@ -1,0 +1,98 @@
+/* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+    .box{
+        display: flex;
+        flex-direction: column;
+        height: 89vh;
+        width: 90vw;
+        margin: 15px auto;
+        padding: 20px 30px;
+        /* border: 2px solid red; */
+        border-radius: 20px;
+        background-color: rgb(52 12 12 / 37%);
+    }
+    .box::before{
+        content: "";
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        background: url('../img/safari2.jpg') no-repeat center center/cover;
+        z-index: -1;
+        left: 0;
+        top: 0%;
+        opacity: 0.8;
+    }
+ p{
+    font-family: 'Playfair Display', serif;
+     color:  white;
+     font-size: 1.2rem;
+    padding: 8px 20px;
+    margin: 0px 25px;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    color: #009879;
+    text-shadow: 4px -5px 2px black;
+    font-size: 54px;
+    margin-bottom: -18px;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px; 
+}   
+/* Table Styling */
+.content{
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 1.1rem;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+}
+.content thead tr{
+    background-color: rgba(0, 152, 121, 0.8);
+    color: rgba(247, 220, 220, 0.8);
+    text-align: left;
+    font-weight: bold;
+}
+.content th,
+.content td{
+    padding: 12px 15px;
+    border-right: 1px solid #dddddd;
+}
+.content thead th{
+    color: white;
+}
+.content tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content tbody tr:nth-of-type(even){
+    background-color: rgba(243, 243, 243, 0.8);
+}
+.content tbody tr:nth-of-type(odd){
+    background-color: rgba(225, 225, 225, 0.8);
+}
+.content tbody tr:last-of-type{
+    border-bottom: 4px solid #009879;
+}
+table{  
+    width: 100%;
+}
+.places{
+    position: absolute;
+    top: 600px;
+    right: 60px;
+}
+.places a{
+    color: red;
+}
+.places a p{
+    color: white;
+}

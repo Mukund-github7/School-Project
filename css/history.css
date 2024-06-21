@@ -1,0 +1,56 @@
+    /* CSS Reset */
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+        border-radius: 20px;
+        padding: 30px 50px;
+        padding-top: 70px;
+        height: 70vh;
+        width: 80vw;
+          background-color: rgba(255, 255, 255, 0.6);
+    }
+    .container::before{
+        content: "";
+        position: Absolute;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        background: url('../img/history.jpg')no-repeat center center/cover;
+        z-index: -1;
+        opacity: 0.9;
+    }
+    h1{
+    font-family: 'Gideon Roman', cursive;
+        color: #9b0606;
+        font-size: 3.5rem;
+        margin-bottom: 30px;
+    }
+    p{
+        color: #000000;
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    .time{
+        width: 300px;
+        background-color: black;
+        opacity: 0.9;
+        border-radius: 20px;
+        position: absolute;
+        top:500px;
+        right: 120px;
+    }
+    .time a{
+        text-align: center;
+        color: green;
+    }
+    .time a p{
+        padding: 10px 8px;
+       margin: 10px 30px;
+        color: white;
+    }

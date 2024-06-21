@@ -1,0 +1,77 @@
+      /* CSS Reset */
+      * {
+        padding: 0;
+        margin: 0;
+    }
+    .box {
+        margin-top: 20px;
+        padding: 23px 34px;
+        margin: 8px 34px;
+    }
+    .box::before {
+        content: "";
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        background: url('../img/Trash/elephant.jpg') no-repeat center center/cover;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.9;
+    }
+    .container {
+        background-color: black;
+        opacity: 0.8;
+        display: flex;
+        justify-content: space-between;
+        /* border: 2px solid red; */
+        border-radius: 22px;
+        height: 75vh;
+    }
+    .item {
+        font-family: 'Gideon Roman', cursive;
+        background-color: white;
+        color: black;
+        padding: 30px 34px;
+        margin: 34px 25px;
+        /* border: 2px solid red; */
+        border-radius: 15px;
+        height: 50vh;
+    }
+    .icons {
+        padding: 10px 30px;
+    }
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 3.3rem;
+        margin-bottom: 15px;
+        margin-left: 45px;
+    }
+    h3 {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    p {
+        font-weight: 200;
+        font-size: 1.3rem;
+    }
+    #bird {
+        padding: 0px 30px;
+    }
+    a {
+        font-size: 1.3rem;
+        position: absolute;
+        right: 115px;
+        top: 566px;
+        color: red;
+        font-weight: 300;
+    }
+    .previous {
+        font-size: 1.3rem;
+        font-weight: 300;
+        position: absolute;
+        left: 115px;
+        top: 566px;
+        color: red;
+    }

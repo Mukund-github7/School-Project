@@ -1,0 +1,54 @@
+ /* CSS Reset */
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: rgb(16 12 12 / 50%);
+    /* border: 2px solid brown; */
+    border-radius: 20px;
+    display: flex;
+    width: 85%;
+    height: 89vh;
+    margin: 35px auto;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: url('../img/Acknowledgement1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    
+
+}
+.box{
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+h1{
+    font-family: 'Graduate', cursive;
+
+    color: #a2cf49;;
+    font-size: 3.5rem;
+    margin: 19px 25px;
+    padding: 14px 8px;
+    
+}
+p{
+    padding: 25px;
+}
+em{
+    color: #9de8ff;
+}

@@ -1,0 +1,57 @@
+/* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.img{
+    height: 100vh;
+    width: 35vw;
+    background-color: black;
+}
+.img img{
+     padding: 20px 34px ;
+     margin: 10px 15px ;
+     height: 600px;
+    width: 500px;
+}
+#heading{
+    font-size: 3rem;
+    font-family: Oswald, sans-serif;
+    margin: 20px 70px;
+    padding: 80px 26px;
+    padding-bottom: 8px;
+    border-bottom: black;
+}
+.box{
+    z-index: -1;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.welcome{
+    height: 70vh;
+    width: 45vw;
+}
+.welcome p{
+    font-size: 1.5rem;
+    padding: 2px 34px;
+    margin: 16px 67px;
+}
+.btn{
+    background-color: red;
+    padding: 20px 25px;
+    margin: -21px 7px;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+.btn a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    }
